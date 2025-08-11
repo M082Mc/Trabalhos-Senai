@@ -1,0 +1,154 @@
+.fundototal{
+    width: 360px;
+    height: 3254px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 0%;
+    
+
+}
+
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+
+}
+
+form{
+    width: 360px;
+    height: 2900px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 6%;
+    
+}
+
+
+img{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.desctexto{
+    opacity: 50%;
+
+}
+.infocrianca{
+
+    width: 312px;
+    height: 48px;
+    border-radius: 8px;
+    opacity: 50%;
+}
+.infocrianca2{
+
+    width: 312px;
+    height: 98px;
+    border-radius:8px ;
+    opacity: 50%;
+}
+.btn1{
+    width: 312px;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px;
+    color:rgba(228, 58, 18, 1);
+    gap: 8px;
+    border-color: #e43a12;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    
+
+}
+.btn2{
+    width: 312px;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px;
+    color:rgb(255, 255, 255);
+    gap: 8px;
+    background-color: rgba(228, 58, 18, 1);
+    border-style: solid;
+    
+}
+.termos{
+    color:#e43a12;
+;
+
+}
+.arraste{
+    width:312px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .fundo{
+    width: 360px;
+    height: 3254px;
+    background-color: rgb(235, 218, 218);
+
+}
+.imagemtopo{
+    width: 360px;
+    height: 328px;
+}
+.f2form{
+    width: 312px;
+    height: 158px;
+    position: relative;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    
+}
+.infocrianca{
+    width: 312px;
+    height: 668px;
+    position: relative;
+    background-color: antiquewhite;
+    margin-left: 7%;
+    margin-top:10%;
+}
+.endereco{
+    width: 312px;
+    height: 480px;
+    position: relative;
+    background-color: antiquewhite;
+    margin-left: 7%;
+    margin-top:10%;
+}
+.inforesp{
+    width: 312px;
+    height: 480px;
+    position: relative;
+    background-color: antiquewhite;
+    margin-left: 7%;
+    margin-top:10%;
+} */
