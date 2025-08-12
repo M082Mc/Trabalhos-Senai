@@ -27,7 +27,6 @@ form{
 
 img{
     width: 100%;
-    margin-top: 10px;
 }
 
 .desctexto{
@@ -80,75 +79,137 @@ img{
 .arraste{
     width:312px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .fundo{
-    width: 360px;
-    height: 3254px;
-    background-color: rgb(235, 218, 218);
-
-}
-.imagemtopo{
-    width: 360px;
-    height: 328px;
-}
-.f2form{
+.turno{
     width: 312px;
-    height: 158px;
-    position: relative;
-    background-color: antiquewhite;
-    display: flex;
-    align-items: center;
+    height: 696px;
+    
     
 }
-.infocrianca{
-    width: 312px;
-    height: 668px;
-    position: relative;
-    background-color: antiquewhite;
-    margin-left: 7%;
-    margin-top:10%;
+.turno1{
+
+    width:312px;
+    height: 128px;
+    
 }
-.endereco{
-    width: 312px;
-    height: 480px;
-    position: relative;
-    background-color: antiquewhite;
-    margin-left: 7%;
-    margin-top:10%;
+.manha{
+    width: 148px;
+    height:128px;
+    border-radius: 8px;
+    border: 2px;
+    border-width: 1px;
+    border-style: solid;
 }
-.inforesp{
-    width: 312px;
-    height: 480px;
+.tarde{
+    width: 148px;
+    height:128px;
+    border-radius: 8px;
+    border: 2px;
+    margin-left: 164px;
     position: relative;
-    background-color: antiquewhite;
-    margin-left: 7%;
-    margin-top:10%;
-} */
+    bottom:128px;
+    border-width: 1px;
+    border-style: solid;
+}
+.simbolo{
+    width: 48px;
+    height: 48px;
+    position: relative;
+    margin-left: 25px;
+    margin-top: 35px;
+}
+.botao{
+    margin-left: 10px;
+    position: relative;
+    bottom: 60px;
+    
+}
+.desc{
+    
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.desc1{
+
+    margin-left: 60px;
+
+}
+
+.esporte{
+    background-color: rgb(255, 255, 255);
+    width: 312px;
+    height: 472px;
+}
+.fut{
+    
+    width: 148px;
+    height:128px;
+    border-radius: 8px;
+    border: 2px;
+    margin-left: 164px;
+    position: relative;
+    bottom:0px;
+    border-width: 1px;
+    border-style: solid;
+    margin-top:10px;
+}
+.basquete{
+    width: 148px;
+    height:128px;
+    border-radius: 8px;
+    border: 2px;
+    border-width: 1px;
+    border-style: solid;
+    position: relative;
+    bottom: 128px;    
+}
+.natacao{
+     width: 148px;
+    height:128px;
+    border-radius: 8px;
+    border: 2px;
+    border-width: 1px;
+    border-style: solid;
+    position: relative;
+    bottom: 128px;
+    margin-top: 15px;  
+}
+.yoga{
+     width: 148px;
+    height:128px;
+    border-radius: 8px;
+    border: 2px;
+    margin-left: 164px;
+    position: relative;
+    bottom:0px;
+    border-width: 1px;
+    border-style: solid;
+    bottom: 255px;
+}
+.voley{
+    width: 148px;
+    height:128px;
+    border-radius: 8px;
+    border: 2px;
+    border-width: 1px;
+    border-style: solid;
+    position: relative;
+    bottom: 240px;
+    
+}
+.boxe{
+    width: 148px;
+    height:128px;
+    border-radius: 8px;
+    border: 2px;
+    margin-left: 164px;
+    position: relative;
+    bottom:0px;
+    border-width: 1px;
+    border-style: solid;
+    bottom: 368px;
+}
+.checkbox{
+    width: 300px;
+    height: 200px;
+    font-size: 17px;
+}
