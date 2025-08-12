@@ -7,47 +7,131 @@
     <title>Document</title>
 </head>
 <body>
-
-    <header>
-        <img src="imginicial.png" alt="Pessoas interagindo">
-    </header>
-
+<div class="fundototal">
+    
+    <img src="imginicial.png" alt="Pessoas interagindo">
     <form action="">
         <div class="form">
             <button>Voltar</button>
-            <h1></h1>
-            <p></p>
+            <h2>Formulário de Matrícula</h1>
+            <p class="desctexto">Preencha os dados abaixo para matricular seu filho na escola de educação infantil Estrelas do Amanhã.</p><br>
+        
+            <h3>Informações da criança</h3><br>
+            <label class="desctexto" for="" >Nome completo</label><br>
+            <input class="infocrianca" type="text" placeholder="Digite o nome da criança"><br><br>
+
+            <label  class="desctexto" for="">Data de nascimento</label><br>
+            <input class="infocrianca" type="date"><br><br>
+
+            <label  class="desctexto" for="">Sexo</label><br>
+            <select class="infocrianca" name="" id="">
+            <option value="Masculino">Masculino</option>
+            <option value="Feminino">Feminino</option>
+            </select><br><br>
+
+            <label class="desctexto" for="">Informações Médicas:</label><br>
+            <input class="infocrianca2" type="text"><br><br>
+        
+            <label class="desctexto" for="">Certidão de Nascimento</label>
+            <img class ="arraste" src="Selecaoarquivos.png" alt="selecionando arquivos"><br>
+
+            <h3>Endereço Residencial</h2>
+        
+            <label  class="desctexto" for="">CEP</label><br>
+            <input  class="infocrianca" type="text" placeholder="00000-000"> <br><br>
+
+            <label  class="desctexto" for="">Rua</label><br>
+            <input  class="infocrianca" type="text"><br><br>
+
+            <label  class="desctexto" for="">Número</label><br>
+            <input  class="infocrianca" type="text"><br><br>
+
+            <label  class="desctexto" for="">Cidade</label><br>
+            <input  class="infocrianca" type="text"><br><br>
+
+            <label  class="desctexto" for="">Estado</label><br>
+            <input  class="infocrianca" type="text"><br><br>
+
+            <h3>Informações do responsável</h2>
+
+            <label class="desctexto" for="">Nome do Responsável</label><br>
+            <input  class="infocrianca" type="text"><br><br>
+
+            <label class="desctexto" for="">Principal responsável legal e contato de emergência</label><br><br>
+            <label class="desctexto" for="">Telefone</label>
+            <input  class="infocrianca" type="text"><br><br>
+
+            <label class="desctexto" for="">E-mail</label><br>
+            <input  class="infocrianca" type="text"><br><br>
+        <div class="turno">
+            <h3>Opções de Matricula</h2>
+            <h4 class="desctexto">Selecione o turno de estudo</h3>
+            
+                <div class="turno1">
+                    <div class="manha">
+            <input class="botao" type="radio" name="btn">
+            <img class="simbolo" src="manha.png">
+            <span class="desc">Manhã</span>
+            </div>
+            <div class="tarde">
+                <input class="botao" type="radio" name="btn">
+                <img class="simbolo" src="tarde.png">
+                <span class="desc">Tarde</span>
+            
+            </div>
+                </div>
+            
+            <label class="desctexto" for="">Em qual esporte você gostaria de inscrever seu filho?</label><br>
+                <div class="esporte">
+                     <div class="fut">   
+                    <input class="botao" type="radio" name="btn2">
+                    <img class="simbolo" src="bola2.png">
+                    <span class="desc">Futebol</span>
+                    </div>
+                <div class="basquete">
+                    <input class="botao" type="radio" name="btn2">
+                    <img class="simbolo" src="basquete.png">
+                    <span class="desc">Basquete</span>
+                </div>
+                <div class="natacao">
+                    <input class="botao" type="radio" name="btn2">
+                    <img class="simbolo" src="natacao.png">
+                    <span class="desc">Natação</span>
+                </div>
+                <div class="yoga">
+                    <input class="botao" type="radio" name="btn2">
+                    <img class="simbolo" src="yoga.png">
+                    <span class="desc1">Yoga</span>
+                </div>
+                <div class="voley">
+                    <input class="botao" type="radio" name="btn2">
+                    <img class="simbolo" src="voley.png">
+                    <span class="desc1">Volley</span>
+                </div>
+                <div class="boxe">
+                    <input class="botao" type="radio" name="btn2">
+                    <img class="simbolo" src="box.png">
+                    <span class="desc">Boxe</span>
+                </div>
+            </div>
         </div>
-        <h3></h3>
-        <label for=""></label><br>
-        <input type="text"><br><br>
+            <input type="checkbox">
+            <label class="checkbox" for="meucheckbox">Declaro que li e concordo com os <a class="termos" href="">Termos e Condições</a> e com a <a class="termos" href="">Política de Privacidade</a> da escola Estrela do Amanhã. </label>
+            <br><br>
 
-        <label for=""></label>
-        <input type="date"><br><br>
+            <input class="btn1" type="button" value="Salvar Respostas"><br><br>
+            <input class="btn2" type="button" value="Fazer Matricula">
 
-        <label for=""></label>
-        <select name="" id="">
-            <option value=""></option>
-            <option value=""></option>
-        </select>
+    
+    
+    
+    
+        </div>
+
     </form>
+</div>
+    
 
-    <!-- <div class="fundo">
-        <img class="imagemtopo" src="imginicial.png" alt="imageminicial" >
-
-        <div class="f2">
-            <div class="f2form"></div>
-            <div class="infocrianca"></div>
-            <div class="endereco"></div>
-            <div class="inforesp"></div>
-            <div class="opmatricula"></div>
-            <div class="declaracao"></div>
-            <div class="btn"></div>
-
-
-        </div>
-
-    </div> -->
     
 </body>
 </html>
